@@ -1,0 +1,43 @@
+body {
+    padding: 0px 200px;
+    /* background-image: linear-gradient( black, gold); */
+    /* background-color: red; */
+}
+
+.contai{
+    margin-top: 120px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+    /* height: 400px; */
+    padding: 70px 60px 100px 60px;
+}
+
+.contai h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.contai p{
+    font-size: 15px;
+    font-weight: 700px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+#display{
+    font-size: 15px;
+    font-weight: 700px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.chec button{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Verdana,sans-serif;
+}
