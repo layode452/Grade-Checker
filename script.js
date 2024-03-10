@@ -9,7 +9,7 @@ function Check() {
     var score = document.getElementById('score').value
     
     if (score == "") {
-        document.getElementById('display').innerHTML = 'Please input your grade...'
+        document.getElementById('display').innerHTML = 'Please input your score...'
     }else if (score >= 0 && score < 40){
         document.getElementById('display').innerHTML = 'F-Fail'
     }else if (score >= 40 && score < 45 ){
