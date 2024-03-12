@@ -12,6 +12,8 @@ function Check() {
         document.getElementById('display').innerHTML = 'Please input your score...'
     }else if (score >= 0 && score < 40){
         document.getElementById('display').innerHTML = 'F-Fail'
+        var songFailure = new Audio('audio/Boo! sound effect.mp3')
+        songFailure.play()
     }else if (score >= 40 && score < 45 ){
         document.getElementById('display').innerHTML = 'E-Fair'
     }else if(score >= 45 && score < 50){
@@ -22,6 +24,8 @@ function Check() {
         document.getElementById('display').innerHTML = 'B-Very Good'
     }else if(score >= 70 && score <= 100){
         document.getElementById('display').innerHTML = 'A-Excellent'
+        var songSuccess = new Audio('audio/Clapping Sound Effects.mp3')
+        songSuccess.play()
     }else if(score < 0){
         document.getElementById('display').innerHTML = 'No grade below 0'
     }else if(score > 100){

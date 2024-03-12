@@ -1,7 +1,8 @@
 body {
     padding: 0px 200px;
-    /* background-image: linear-gradient( black, gold); */
-    /* background-color: red; */
+    background-image: linear-gradient( black, brown, gold);
+    height: 100vh;
+    
 }
 
 .contai{
